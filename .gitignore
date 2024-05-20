@@ -1,0 +1,6 @@
+/dist
+/lavalink/logs
+.env
+.idea
+/lavalink/application.yml
+/node_modules

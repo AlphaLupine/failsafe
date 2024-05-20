@@ -1,0 +1,25 @@
+{
+  "name": "failsafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-bot": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@dimensional-fun/logger": "^1.0.1",
+    "@lavaclient/plugin-effects": "^1.0.0-rc.2",
+    "@lavaclient/plugin-queue": "^0.0.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "glob-promise": "^6.0.5",
+    "lavaclient": "^5.0.0-rc.3"
+  }
+}
