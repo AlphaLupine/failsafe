@@ -69,7 +69,7 @@ export class Failsafe extends Client {
 
             this.commands.set(command.name, command);
         }
-        await this.registerCommands(this.commands, "732479270668206142");
+        await this.registerCommands(this.commands, process.env.GUILDID!);
         logger.info(`[Client]`, `registering commands`)
     }
 
