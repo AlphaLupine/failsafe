@@ -3,8 +3,8 @@ version: '3.8'
 services:
   bot:
     build: .
-    container_name: faux-key-hoarder
+    container_name: failsafe
     restart: unless-stopped
     volumes:
-      - .:/Faux/Keyhoarder/bot
-      - /Faux/Keyhoarder/bot/node_modules
+      - .:/Lupine/Failsafe/bot
+      - /Lupine/Failsafe/bot/node_modules
