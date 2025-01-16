@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Set the working directory inside the container
-WORKDIR /Faux/Keyhoarder/bot
+WORKDIR /Lupine/Failsafe/bot
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
