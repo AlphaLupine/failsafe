@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: faux-key-hoarder
+    restart: unless-stopped
+    volumes:
+      - .:/Faux/Keyhoarder/bot
+      - /Faux/Keyhoarder/bot/node_modules

@@ -27,7 +27,7 @@ export class ReadyHandler extends BaseEventHandler {
 
     private async setStatus() {
 
-        this.source.user.setPresence({ activities: [{ type: 1,  name: 'a live feed from Nessus', url: "https://www.youtube.com/watch?v=pc8uzYJYTfg&ab_channel=Promethean%2CArchivalMind" }], status: 'online' });
+        this.source.user.setPresence({ activities: [{ type: 2,  name: '/play' }], status: 'online' });
 
     }
 }
