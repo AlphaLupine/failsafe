@@ -5,7 +5,7 @@ import { Node } from "lavaclient";
 import {handleLoadType} from "../utils/HelperFunctions";
 import {logger} from "../index";
 
-//Add the current TextChannel to the player so we can continue to send messages in this channel when events are emitted
+//Add the current TextChannel to the Queue so we can continue to send messages in this channel when events are emitted
 
 Object.defineProperty(Queue.prototype, "textChannel", {
     get: function(this: Queue) {
